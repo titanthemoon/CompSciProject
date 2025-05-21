@@ -4,6 +4,7 @@ out/
 !**/src/test/**/out/
 Java-Pong.iml
 .idea/
+out/
 
 ### Eclipse ###
 .apt_generated
