@@ -172,7 +172,7 @@ public class PhysicsObject {
         out += "Velocity: " + vel.toString() + "\n";
         out += "Acceleration: " + acc.toString() + "\n";
         out += "Bounds: x: " + maxR + " y: " + maxB + "\n";
-        out += "Size: Width:" + colW + " Height: " + colH;
+        out += "Size: Width: " + colW + " Height: " + colH;
         return out;
     }
     // ignores position, velocity, and acceleration but cares about everything else

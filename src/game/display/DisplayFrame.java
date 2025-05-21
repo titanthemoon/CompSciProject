@@ -51,6 +51,11 @@ public class DisplayFrame extends JPanel {
         physicsObjects[2].setAcc(new Vector2d(0, 0.5));
         physicsObjects[3].setAcc(new Vector2d(0, 0.5));
 
+
+        for (PhysicsObject o : physicsObjects) {
+            System.out.println(o.toString());
+        }
+
         ball.setVel(resetVel);
         aiPaddle = new Paddle(Constants.U_WIDTH, 15); // left side
         playerPaddle = new Paddle(Constants.SCREEN_W - 2 * Constants.U_WIDTH, 15); // right side
